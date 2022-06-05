@@ -2,7 +2,7 @@ spring:
   application:
     name: parcial-One.
   profiles:
-    active: prod
+    active: dev
 
 server:
   servlet:
