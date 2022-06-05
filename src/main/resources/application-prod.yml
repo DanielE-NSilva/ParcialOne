@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: oxvctynlvwqdpv
+    password: 4fee92e302286ba8d766925c8c2b22a89004b5b83be8849c8eabf8a117e71a9b
+    url: jdbc:postgres://oxvctynlvwqdpv:4fee92e302286ba8d766925c8c2b22a89004b5b83be8849c8eabf8a117e71a9b@ec2-54-211-255-161.compute-1.amazonaws.com:5432/dicjfgq29pp01
+  sql:
+    init:
+      platform: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL10Dialect

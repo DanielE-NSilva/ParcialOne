@@ -1,21 +1,11 @@
 spring:
   application:
-    name: parcial-One
-  datasource:
-    driver-class-name: org.h2.Driver
-    username: Hello
-    password: Hello
-    url: "jdbc:h2:mem:examOne;"
-  h2:
-    console:
-      enabled: true
-  jpa:
-    show-sql: true
-    database-platform: org.hibernate.dialect.H2Dialect
-    defer-datasource-initialization: true
-    hibernate:
-      ddl-auto: create-drop
+    name: parcial-One.
+  profiles:
+    active: prod
+
 server:
   servlet:
-    context-path: "/ParcialOne/v0.1"
+    context-path: "/ParcialOne/v1"
   port: 9030
+
