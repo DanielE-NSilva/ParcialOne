@@ -7,5 +7,5 @@ spring:
 server:
   servlet:
     context-path: "/ParcialOne/v1"
-  port: 9030
+  port: 9050
 
