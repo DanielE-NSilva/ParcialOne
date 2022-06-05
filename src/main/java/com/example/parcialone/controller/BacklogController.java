@@ -4,8 +4,6 @@ package com.example.parcialone.controller;
 import com.example.parcialone.helpers.Common;
 import com.example.parcialone.helpers.Response;
 import com.example.parcialone.helpers.ResponseBuild;
-import com.example.parcialone.persistence.entity.Backlog;
-import com.example.parcialone.persistence.entity.Project;
 import com.example.parcialone.services.BacklogService;
 import com.example.parcialone.services.dto.BacklogInDTO;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +11,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.List;
 
 @RestController
 @RequestMapping("/Backlog")

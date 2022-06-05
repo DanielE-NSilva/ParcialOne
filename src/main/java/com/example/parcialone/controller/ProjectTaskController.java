@@ -6,7 +6,7 @@ import com.example.parcialone.helpers.Response;
 import com.example.parcialone.helpers.ResponseBuild;
 import com.example.parcialone.persistence.entity.ProjectTask;
 import com.example.parcialone.persistence.entity.StatusProjectTask;
-import com.example.parcialone.services.ProjectTaskService;
+import com.example.parcialone.services.ProjectTaskServiceImp;
 import com.example.parcialone.services.dto.ProjectTaskInDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.BindingResult;
@@ -21,7 +21,7 @@ import static org.springframework.http.HttpStatus.NOT_FOUND;
 @RequiredArgsConstructor
 public class ProjectTaskController {
 
-    private final ProjectTaskService projectsTaskService;
+    private final ProjectTaskServiceImp projectsTaskService;
     private final ResponseBuild builder;
     private final Common common;
 
