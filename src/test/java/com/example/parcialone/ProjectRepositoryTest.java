@@ -1,6 +1,5 @@
 package com.example.parcialone;
 
-
 import com.example.parcialone.persistence.entity.Project;
 import com.example.parcialone.persistence.repository.ProjectRepository;
 import org.assertj.core.api.Assertions;
